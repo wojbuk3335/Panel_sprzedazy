@@ -1,0 +1,516 @@
+@import url(//db.onlinewebfonts.com/c/1cfac2832ad49f16a3ea6b5c2287af2f?family=Mistral);
+
+@font-face {font-family: "Mistral"; src: url("//db.onlinewebfonts.com/t/1cfac2832ad49f16a3ea6b5c2287af2f.eot"); src: url("//db.onlinewebfonts.com/t/1cfac2832ad49f16a3ea6b5c2287af2f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1cfac2832ad49f16a3ea6b5c2287af2f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1cfac2832ad49f16a3ea6b5c2287af2f.woff") format("woff"), url("//db.onlinewebfonts.com/t/1cfac2832ad49f16a3ea6b5c2287af2f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1cfac2832ad49f16a3ea6b5c2287af2f.svg#Mistral") format("svg"); } 
+
+body{
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url("../img/simple_dashed.png");
+	color: white;
+}
+
+
+.logo{
+	font-size: 22px;
+	font-family: 'Mistral';
+	margin-top: 2px;
+	color:black;
+}
+
+.alert{
+	font-size: 13px;
+	min-height: 20px;
+	margin-top: 8px;
+}
+
+.red_inscription{
+	color:red;
+	font-size: 10px;
+}
+
+.container{
+	background-color: white;
+	height: 175px;
+	width: 350px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+	transform: translate(-50% , -50%);
+	text-align: center;
+	padding-top: 25px;	
+	-webkit-box-shadow: 0px 0px 4px 8px rgba(255,255,255,1);
+	-moz-box-shadow: 0px 0px 4px 8px rgba(255,255,255,1);
+	box-shadow: 0px 0px 4px 8px rgba(255,255,255,1);
+}
+
+input[type=text],
+input[type=password]{
+	filter: none;
+	width:150px;
+	height: 15px;
+	padding: 2px;
+	border:1px solid black;
+	border-radius:2px;
+	outline:none;
+	display:block;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom: 20px;
+}
+
+
+input[type=submit]{
+	color:white;
+	background-color: black;
+	cursor: pointer;
+	width:150px;
+	height: 15px;
+	box-sizing:content-box;
+	font-size:10px;
+	border:1px solid black;
+	border-radius:2px;
+	padding: 2px;
+	outline:none;
+	display:block;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 30px;
+	filter: none;
+}
+
+input[type="text"].item_name,
+input[type="text"].amount,
+input[type="text"].card_amount,
+input[type="text"].amount_no_sum,
+
+input[type="text"].item_name2,
+input[type="text"].total,
+input[type="text"].product_and_color_1_section_4
+{
+background-color: black;
+color: white;
+border: 1px solid white;
+width:100%;
+height: 100%;
+margin-bottom: 0;
+text-align: center;
+border-radius: 3px;
+}
+
+input[type="text"].item_name,
+input[type="text"].amount ,
+input[type="text"].card_amount ,
+input[type="text"].amount_no_sum ,
+
+
+input[type="text"].product_and_color_1_section_4
+{
+	margin-bottom: 3px;
+}
+
+input[type="text"].item_name:focus,
+input[type="text"].amount:focus,
+input[type="text"].card_amount:focus,
+input[type="text"].amount_no_sum:focus,
+
+
+input[type="text"].item_name2:focus,
+input[type="text"].total:focus,
+input[type="text"].product_and_color_1_section_4:focus
+{
+	 border-color:#86b7fe;
+	 outline:0;
+	 box-shadow:0 0 0 .25rem rgba(13,110,253,.25)
+}
+
+input[type=submit]:hover{
+	background-color: #222222;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=submit]:focus{
+	-webkit-box-shadow: 0px 0px 2px 0.7px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 0px 2px 0.7px rgba(0,0,0,1);
+	box-shadow: 0px 0px 2px 0.7px rgba(0,0,0,1);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+	-webkit-box-shadow: 0 0 0px 1000px #ffffff inset !important;
+}
+
+
+.table{
+	color: white;
+	margin-bottom: 25px;
+}
+
+.logout_data{
+	margin: 20px;
+	color:  #007bff;
+	text-align: center;
+}	
+
+.logout_data_logout,
+.logout_data_user,
+.logout_data_date{
+	margin: 2px;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    text-align: center;
+	vertical-align:middle;
+}
+
+.ui-widget.ui-widget-content {
+    border: 1px solid #c5c5c5;
+    background-color: black;
+    color: white;
+}
+
+.form-select {
+    background-color: black;
+	color: white;
+	height:100%;
+	padding:2px;
+}
+
+input[type=submit].btn.btn-info {
+	margin-bottom: 10px;
+	height: 19px;
+	background-color: #007bff;
+	border-radius:3px;
+}
+
+input[type=submit].btn.btn-info:hover {
+	color: white;
+}
+
+
+textarea {
+    resize: none;
+    overflow: hidden;
+    min-height: 50px;
+	background-color:black;
+	color:white;
+	border:1px solid white;
+	width: 100%;
+}
+
+.info{
+	font-size: 13px;
+	margin:0;
+}
+
+h3{
+	margin-top: 10px;
+}
+
+
+.box ul
+{
+	margin-left: 30px;
+	margin-right: 30px;
+	padding: 0;
+	display: flex;
+	background-image: url("../img/simple_dashed.png");
+}
+.box ul li
+{
+	color: white;
+	margin: 0;
+	padding: 5px;
+	padding-top:10px;
+	width: 25%;
+	box-sizing: border-box;
+	text-align: center;
+	list-style: none;
+	cursor:pointer;
+	border: 1px solid white;
+}
+
+.box ul li:hover
+{
+	background-color:#007bff;
+	color: white;
+}
+
+.box ul li.active
+{
+		background-color:#007bff;
+		color: white;
+}
+
+.hide
+{
+	display: none;
+}
+
+.active
+{
+	display: block;
+}
+
+.sprzedaz_content_visible{
+		display: none;
+		text-align:center;
+	}
+
+	.input_sum{
+		margin-left: 10px;
+		width: 300px;
+		float: left;
+	}
+	.sum_inscr{
+		margin-left: 10px;
+		float:left;
+		width: 390px;
+		margin-bottom: 10px;
+	}
+
+.button_hide{
+		display: none;
+		margin-top: 10px;
+}
+
+
+@media (max-width:1250px)
+{
+		h4{
+		font-size: 15px;
+	}
+}
+
+.table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table td,.table th{
+  padding:12px 15px;
+  border:1px solid #ddd;
+  text-align: center;
+  font-size:16px;
+}
+
+@media(max-width: 900px){
+	.content{
+		margin-top: 50px;
+		border-top: 1px solid #007bff;
+	}
+		.box
+	{
+		width:90%;
+		margin: 0px auto;
+	}
+		
+		.box ul
+	{
+		display: block;
+	}
+	
+		.box ul li
+	{
+		width: 100%;
+		font-size: 2px;
+	}
+	
+	h4{
+		font-size: 15px;
+	}
+	
+	.table thead{
+		display: none;
+	}
+
+	.table, .table tbody, .table tr, .table td{
+		display: block;
+		width: 100%;
+	}
+	.table tr{
+		margin-bottom:15px;
+	}
+	.table td{
+		text-align: right;
+		padding-left: 50%;
+		text-align: right;
+		position: relative;
+	}
+	.table td::before{
+		content: attr(data-label);
+		position: absolute;
+		left:0;
+		width: 50%;
+		padding-left:15px;
+		font-size:15px;
+		font-weight: bold;
+		text-align: left;
+	}
+	
+	.sprzedaz_content_hide,
+	.sprzedaz_content_hide2
+	{
+		display: none;
+		text-align:center;
+	}
+	.button_hide{
+		display:block;
+		text-align: center;
+		margin-top: 10px;
+		}
+	.input_sum{
+		float:none;
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.sum_inscr{
+		float:none;
+		margin-left: auto;
+		margin-right: auto;
+		width: 390px;
+		margin-bottom: 10px;
+	}
+}
+.ui-datepicker-prev:hover,
+.ui-datepicker-next:hover
+{
+	cursor: pointer;
+}
+
+.ui-widget-header
+{
+	background-color: white;
+}
+
+.ui-widget-content .ui-state-default
+{
+	background-color: white;
+}
+
+.ui-widget-content .ui-state-default:hover
+{
+	background-color: #ededed;
+}
+
+.menu ul{
+	padding: 0;
+	display: flex;
+	background-image: url("../img/simple_dashed.png");
+}
+
+.menu ul>li{
+	color: white;
+	margin: 0;
+	padding:0;
+	width: 300px;
+	box-sizing: border-box;
+	text-align: center;
+	list-style: none;
+	cursor:pointer;
+	border: 1px solid white;
+	margin-left: -1px;
+}
+
+.menu ul>li>ul{
+	display: block;
+	margin: 0;
+	padding:0;
+	width: 300px;
+	position: absolute;
+}
+
+.menu ul>li>ul>li{
+	display: block;
+	margin-left: -1px;
+	margin-bottom: -1px;
+}
+
+.menu ul>li>a{
+	width: 298px;
+	display: block;
+	height: 38px;
+	line-height: 230%;
+	color: white;
+	text-decoration: none;
+}
+
+.menu ul>li>a:hover{
+	background-color:#007bff;
+	color: white;
+}
+
+.cont{
+	margin-top: 100px;
+}
+
+.menu_container
+{
+	width:100%;
+}
+
+.menu
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+}
+
+@media (max-width:1350px)
+{	
+	.menu ul>li{
+
+	width: 250px;
+	}
+	
+	.menu ul>li>ul{
+	width: 250px;
+	}
+	
+	.menu ul>li>a{
+	width: 248px;
+	}
+	
+	.menu
+	{
+		margin-left: auto;
+		margin-right: auto;
+		width: 1000px;
+	}
+}
+
+@media (max-width:1000px)
+{	
+	.menu ul{
+		display: block;
+	}
+	
+	.menu ul>li{
+		display: block;
+		width: 400px;
+	}
+	
+	.menu ul>li>ul>li{
+		background: #1a1a1a;
+	}
+	
+	.menu ul>li>ul{
+		position: relative;
+		width: 400px;
+	}
+	
+	.menu
+	{
+		margin-left: auto;
+		margin-right: auto;
+		width: 402px;
+	}
+	.menu ul>li>a{
+		width: 398px;
+	}
+}
